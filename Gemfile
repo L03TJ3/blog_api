@@ -27,9 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # ===== My Gems ============
 
 # handle cross-origin resource requests
-
 gem 'rack-cors', require: 'rack/cors'
-
 
 # handle image storage
 gem 'cloudinary'
@@ -58,6 +56,8 @@ group :development, :test do
   # Test Suite
   gem 'rspec-rails'
   gem 'shoulda-matchers'
+  gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 group :development do
